@@ -33,7 +33,7 @@
 @property (strong, nonatomic, readwrite) RATreeNodeInfo *parent;
 @property (strong, nonatomic, readwrite) NSArray *children;
 
-@property (strong, nonatomic, readwrite) RATreeNode *parentTreeNode;
+@property (weak, nonatomic, readwrite) RATreeNode *parentTreeNode;
 @property (strong, nonatomic, readwrite) NSArray * childrenTreeNodes;
 
 @property (strong, nonatomic, readwrite) id item;
